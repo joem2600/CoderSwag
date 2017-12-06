@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">CoderSwag</string>
+    <string name="categories_txt">Categories</string>
+    <string name="product_txt">Product</string>
 </resources>
