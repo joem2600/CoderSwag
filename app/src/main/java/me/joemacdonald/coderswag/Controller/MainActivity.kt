@@ -4,7 +4,6 @@ import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_main.*
 import me.joemacdonald.coderswag.Adapters.CategoryAdapter
-import me.joemacdonald.coderswag.Model.Category
 import me.joemacdonald.coderswag.R
 import me.joemacdonald.coderswag.Services.DataService
 
@@ -20,5 +19,7 @@ class MainActivity : AppCompatActivity() {
         adapter = CategoryAdapter(this, DataService.categories)
 
         categoryListView.adapter = adapter
+
+
     }
 }
